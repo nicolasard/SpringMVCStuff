@@ -1,0 +1,1 @@
+java -jar ../target/MVC_Example2-0.1.0.jar
