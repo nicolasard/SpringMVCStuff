@@ -19,5 +19,5 @@ SET APP_HOME=C:\Users\Nico\Desktop\SpringBanchStuff\SB_Ejemplo1\
 
 SET CLASSPATH=%CLASSPATH%;%APP_HOME%/target/dependency/*
 SET CLASSPATH=%CLASSPATH%;%APP_HOME%/target/*
-SET CLASSPATH=%CLASSPATH%;%APP_HOME%/target/ejemplo1-1.0-SNAPSHOT.jar
+SET CLASSPATH=%CLASSPATH%;%APP_HOME%/target/gs-serving-web-content-0.1.0.jar
 SET CLASSPATH=%CLASSPATH%;%APP_HOME%
