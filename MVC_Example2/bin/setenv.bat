@@ -1,21 +1,19 @@
 @ECHO OFF
 echo SETEANDO VARIABLES DE ENTORNO JAVA Y TOMCAT
+echo APP_HOME: %~dp0..\
 
-SET JAVA_HOME=C:\Program Files\Java\jdk1.8.0_31
-SET JRE_HOME=C:\Program Files\Java\jdk1.8.0_31
+::Modificar aca los paths de las dependencias::::::::::::::::::::::::::
 
-:: SET ANT_HOME=C:\Users\Nico\Desktop\ORDENAR\eclipse\apache-ant-1.9.6
-SET MAVEN_HOME=D:\BASE\apache-maven-3.3.9
+SET JAVA_HOME=C:\Program Files\Java\jdk1.8.0_101
+SET JRE_HOME=C:\Program Files\Java\jdk1.8.0_101
+SET MAVEN_HOME=E:\tools\apache-maven-3.3.9-bin\apache-maven-3.3.9
 
-:: Cosas de catalina tomcat
-:: SET CATALINA_HOME=C:\Users\Nico\Desktop\ORDENAR\eclipse\apache-tomcat-7.0.64
-:: SET CATALINA_BASE=C:\Users\Nico\workspace\WORK\GireAPI
-:: SET CATALINA_TMPDIR=C:\Users\Nico\workspace\WORK\GireAPI
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:: Set Path variable
 SET PATH=%Path%;%MAVEN_HOME%\bin;%ANT_HOME%\bin;%JAVA_HOME%\bin;%CATALINA_HOME%;%CATALINA_BASE%
 
-SET APP_HOME=C:\Users\Nico\Desktop\SpringBanchStuff\SB_Ejemplo1\
+SET APP_HOME=%~dp0..\
+
 
 SET CLASSPATH=%CLASSPATH%;%APP_HOME%/target/dependency/*
 SET CLASSPATH=%CLASSPATH%;%APP_HOME%/target/*
