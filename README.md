@@ -1,15 +1,15 @@
-#SpringMVCStuff
+# SpringMVCStuff
 
 Here it's were i put my spring batch stuff
 
-##MVC_Example1
+## MVC_Example1
 Its juts the first example from the Spring webpage (https://spring.io/guides/gs/serving-web-content/)
 
-##MVC_Example2
+## MVC_Example2
 An other example where the greetings controller its a restful query. 
 
 
-##How to run the application
+## How to run the application
 
 The applications have spring-boot so, if you are developing, instead of making a package you can run it using the mvn spring-boot:run command and then the application reloads after every change without restarting it. To do it go to the app_home and run the following:
 
